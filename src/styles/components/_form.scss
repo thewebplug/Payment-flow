@@ -1,0 +1,122 @@
+.form{
+    max-width: 51rem;
+    height: 100vh;
+    margin: auto;
+    padding: 40px 0px 40px 0px;
+}
+.tabPanel{
+    text-transform: none !important;
+    font-size: 1.2rem !important;
+}
+.tabCurrent{
+    color: #F2994A !important;
+}
+.tabPanel{
+    background-color: yellow;
+}
+.inputField{
+    background-color: white;
+    height: 3rem;
+}
+.formControl{
+    width: 100%;
+    margin-bottom: 0.2rem !important;
+}
+.button{
+    background: linear-gradient(180deg, #F2C94C 0%, #F2994A 100%) !important;
+}
+.btnContainer{
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+}
+.buttonText{
+    margin: 5px 30px 5px 30px;
+    text-transform: none !important;
+}
+.modal{
+    height: 50vh;
+    width: 100%;
+    background-color: #ffffff !important;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.modalHeader {
+    background-color: #2F80ED !important;
+    z-index: 100;
+    border-radius: 8px 8px 0px 0px;
+    padding: 10px 100px 10px 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.modalHeader h2{
+    color: #fff;
+}
+.modalBody {
+    background-color: #ffffff !important;
+    z-index: 100;
+    height: 100vh;
+    box-shadow: 5px 5px 10px #ccc;
+    width: 100% !important;
+}
+.modalContainer {
+    margin: auto !important;
+    padding: 20px 0px 0px 0px;
+    display: flex !important;
+    justify-content: space-between !important;
+    max-width: 60%;
+}
+.total{
+    width: 60%;
+    height: 6vh;
+    margin: auto;
+    border-radius: 4px;
+    border: 1px solid #817E9E;
+    display: flex;
+    padding: 0px 10px 0px 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.paymentSuccess{
+    height: 40vh;
+    width: 70%;
+    background-color: #ffffff !important;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 8rem;
+}
+
+.paymentSuccessInner{
+    background-color: #ffffff !important;
+    z-index: 100;
+    height: 100vh;
+    margin: auto;
+    box-shadow: 5px 5px 10px #ccc;
+    width: 100% !important;
+    padding: 60px 70px 0px 70px;
+    border-radius: 8px;
+}
+.paymentSuccessText{
+    font-size: 3.1rem !important;
+    margin-top: 0.4rem;
+}
+
+.paymentSuccessImage{
+    display: flex;
+    justify-content: center;
+    width: fit-content;
+    margin: auto;
+    padding: 10px;
+    border-radius: 100%;
+    box-shadow: 1px 4px 10px #ccc;
+
+}
+.return{
+    font-size: 1rem !important;
+    text-decoration: underline;
+    text-transform: none !important;
+    color: #F2994A !important;
+}
